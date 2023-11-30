@@ -1,0 +1,236 @@
+.navigation-links2-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links2-link {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+}
+.navigation-links2-link1 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 32px;
+  text-decoration: none;
+}
+.navigation-links2-link2 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 32px;
+  text-decoration: none;
+}
+.navigation-links2-link3 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 32px;
+  text-decoration: none;
+}
+.navigation-links2-link4 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 32px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links2-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links2-link {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links2-link1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links2-link2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links2-link3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links2-link4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.experience-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("public/%C3%A2%C2%80%C2%94pngtree%C3%A2%C2%80%C2%94isolated%20mountain%20mockup%20in%203d_5784343-2-1500w.jpg");
+}
+.experience-image {
+  top: 147px;
+  left: 49px;
+  width: 200px;
+  position: absolute;
+  object-fit: cover;
+}
+.experience-ul {
+  top: 151px;
+  left: 281px;
+  width: 829px;
+  position: absolute;
+  background-color: var(--dl-color-gray-white);
+}
+.experience-text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.experience-ul1 {
+  top: 504px;
+  left: 279px;
+  width: 829px;
+  position: absolute;
+  background-color: var(--dl-color-gray-white);
+}
+.experience-text19 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.experience-text23 {
+  top: 6px;
+  left: 30px;
+  color: var(--dl-color-gray-black);
+  position: absolute;
+  font-size: 60px;
+  font-family: "Comic Sans MS";
+}
+.experience-header {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 1400px;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 32px;
+  justify-content: space-between;
+}
+.experience-nav {
+  flex: 0 0 auto;
+  right: 76px;
+  bottom: 5px;
+  display: flex;
+  position: absolute;
+  align-self: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+.experience-burger-menu {
+  display: none;
+}
+.experience-icon {
+  width: 16px;
+  height: 16px;
+  display: flex;
+}
+.experience-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.experience-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.experience-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+  justify-content: space-between;
+}
+.experience-image1 {
+  height: 2rem;
+}
+.experience-close-mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.experience-icon02 {
+  width: 16px;
+  height: 16px;
+}
+.experience-icon04 {
+  width: 16px;
+  height: 16px;
+  margin-right: 32px;
+}
+.experience-icon06 {
+  width: 16px;
+  height: 16px;
+  margin-right: 32px;
+}
+.experience-icon08 {
+  width: 16px;
+  height: 16px;
+}
+.experience-image2 {
+  top: 506px;
+  left: 52px;
+  width: 200px;
+  position: absolute;
+  object-fit: cover;
+}
+@media(max-width: 767px) {
+  .experience-header {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .experience-nav {
+    display: none;
+  }
+  .experience-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media(max-width: 479px) {
+  .experience-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .experience-mobile-menu {
+    padding: 16px;
+  }
+}
